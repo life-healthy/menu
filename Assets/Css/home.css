@@ -6,11 +6,16 @@ html {
 body {
     margin: 0;
     padding: 0;
+    font-size: 16px;
     overflow-x: hidden;
     touch-action: pan-y;
     scroll-snap-type: y proximity; /* hoặc x */
     overflow-y: scroll;
 }
+
+h1, h2, h3 {
+    font-size: 2rem; /* Kiểm soát rõ ràng kích thước tiêu đề */
+  }
 
 .main-container {
     position: relative;
