@@ -186,46 +186,6 @@ z-index: 1;
 
 /* RESPONSIVE MEDIA QUERIES */
 
-/* Large devices (laptops/desktops, up to 1366px) */
-@media screen and (max-width: 1366px) {
-    .circular-images-container {
-        width: 400px;
-        height: 600px;
-    }
-    
-    .image1 {
-        width: 200px;
-        height: 200px;
-        top: 0;
-        left: 30px;
-    }
-    
-    .image2 {
-        width: 210px;
-        height: 210px;
-        top: 160px;
-        left: 210px;
-    }
-    
-    .image3 {
-        width: 190px;
-        height: 190px;
-        top: 340px;
-        left: 30px;
-    }
-    
-    .menu-description {
-        max-width: 500px;
-        font-size: 26px;
-    }
-    
-    .main-dish {
-        width: 40%;
-        right: 0;
-        top: -40px;
-    }
-}
-
 /* Medium devices (tablets, iPads, up to 1024px) */
 @media screen and (max-width: 1024px) {
     .main-container {
