@@ -550,3 +550,11 @@ z-index: 1;
         width: 80px;
     }
 }
+
+.click-me:hover div {
+    border-color: #ff6b6b !important;
+    box-shadow: 0 0 10px rgba(255, 107, 107, 0.5);
+}
+.click-me:hover img {
+    transform: scale(1.05);
+}
