@@ -772,5 +772,11 @@ z-index: 1;
     .header-bottom-section {
        
     }
+
+    .menu-item-section3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
   
