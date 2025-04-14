@@ -671,7 +671,7 @@ z-index: 1;
     }
 
     p {
-        font-size: 20px !important;
+        font-size: 15px !important;
     }
 
     .logo {
@@ -682,11 +682,12 @@ z-index: 1;
     }
     
     .top-section {
-        min-height: 50vh;
+        min-height: 40vh;
     }
 
     .bottom-section {
-        min-height: 50vh;
+        height: auto;
+        min-height: 60vh;
         flex-direction: column;
 
     }
