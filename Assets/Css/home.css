@@ -193,10 +193,6 @@ z-index: 1;
         height: 25vh;
     }
     
-    .bottom-section {
-        height: 75vh;
-    }
-    
     .title-text {
         top: 20px;
         left: 50px;
@@ -751,9 +747,10 @@ z-index: 1;
     }
 
     .logo-header-responsive {
-        transform: translate(-50%,-100%) !important;
-        position: absolute;
+        position: relative !important;
+        transform: none !important;
     }
+
 
     .dish-image {
         height: 250px !important;
@@ -762,6 +759,14 @@ z-index: 1;
     .dish-image-reponsive {
         float: left;
         width: 100% !important;
+    }
+
+    .sub-title-res {
+        flex-direction: column;
+    }
+
+    .header-bottom-section {
+       
     }
 }
   
