@@ -782,5 +782,9 @@ z-index: 1;
     .corner-bottom-right1 {
         display: none;
     }
+
+    .featured-dish-mobile {
+        flex-direction: column;
+    }
 }
   
