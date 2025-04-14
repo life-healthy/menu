@@ -675,7 +675,7 @@ z-index: 1;
     }
 
     p {
-        font: 20px !important;
+        font-size: 20px !important;
     }
 
     .logo {
@@ -721,14 +721,19 @@ z-index: 1;
         display: none;
     }
 
-    .main-container {
-        scroll-snap-align: none;
-        scroll-snap-stop: none;
+    .menu-container1, .main-container {
+        scroll-snap-align: none !important;
+        scroll-snap-stop: none !important;
     }
 
-    .main-container1 {
-        scroll-snap-align: none;
-        scroll-snap-stop: none;
+    .menu-container1 {
+        scroll-snap-align: none !important;
+        scroll-snap-stop: none !important;
+    }
+
+    .main-container {
+        scroll-snap-align: none !important;
+        scroll-snap-stop: none !important;
     }
 
     .logo-bottom {
@@ -739,6 +744,19 @@ z-index: 1;
         position: relative !important;
         top: 0 !important;
         left: 0 !important;
+    }
+
+    .reponsive-left-4 {
+        display: none !important;
+    }
+
+    .logo-header-responsive {
+        transform: translate(-50%,-100%) !important;
+        position: absolute;
+    }
+
+    .dish-image {
+        height: 250px !important;
     }
 }
   
