@@ -758,5 +758,10 @@ z-index: 1;
     .dish-image {
         height: 250px !important;
     }
+
+    .dish-image-reponsive {
+        float: left;
+        width: 100% !important;
+    }
 }
   
