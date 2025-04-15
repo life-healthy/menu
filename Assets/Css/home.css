@@ -793,16 +793,18 @@ z-index: 1;
     }
 
     .bottom-section4-mobile {
-        min-height: 900px;
+        min-height: 1200px !important;
+        height: auto !important;
     }
 
     .menu-item-section3 {
-        height: 1200px !important;
+        min-height: 65% !important;
+        height: auto !important;
     }
 
     .menu-item-section4 {
-        min-height: 75vh;
-        height: 1200px !important;
+        min-height: 75vh !important;
+        height: auto !important;
     }
 
     .menu-item-section4-mobile {
