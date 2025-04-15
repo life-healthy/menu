@@ -816,5 +816,9 @@ z-index: 1;
     .menu-item-section4-mobile > div > h3 {
         padding: 0 !important;
     }
+
+    .main-container-mobile {
+        height: 1500px !important;
+    }
 }
   
