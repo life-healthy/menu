@@ -723,6 +723,10 @@ z-index: 1;
         scroll-snap-stop: none !important;
     }
 
+    .main-container {
+        min-height: 100vh !important; 
+    }
+
     .menu-container1 {
         scroll-snap-align: none !important;
         scroll-snap-stop: none !important;
@@ -797,6 +801,7 @@ z-index: 1;
     }
 
     .menu-item-section4 {
+        min-height: 75vh;
         height: 1200px !important;
     }
 
